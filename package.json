@@ -10,6 +10,13 @@
     "dev": "concurrently -c \"blue.bold,red.bold\" --names \"ethereum,frontend\" \"yarn --cwd contracts dev\" \"yarn --cwd frontend dev\""
   },
   "devDependencies": {
-    "concurrently": "^7.5.0"
+    "concurrently": "^7.5.0",
+    "cross-env": "^7.0.3",
+    "hardhat": "^2.22.12",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodejs": "^0.0.0"
   }
 }
