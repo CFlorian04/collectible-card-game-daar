@@ -39,11 +39,17 @@ const useWallet = () => {
   }, [details, contract])
 }
 
+const create_collection = () => {
+  
+
+}
+
 export const App = () => {
   const wallet = useWallet()
   return (
     <div className={styles.body}>
       <h1>Welcome to Pokémon TCG</h1>
+      <button onClick={create_collection}>Create Collections</button>
     </div>
   )
 }
